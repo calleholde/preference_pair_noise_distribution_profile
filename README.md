@@ -1,11 +1,11 @@
-# vecdb_jd398
+# preference_pair_noise_distribution_profile
 
 **分析向量数据库内核工程师·偏好数据的成对噪声的数值分布并标出离群点。**
 
-`vecdb_jd398` —— 抽取数值做分布分析，用中位数绝对偏差识别向量数据库内核工程师·偏好数据的成对噪声上的离群点
+`preference_pair_noise_distribution_profile` —— 抽取数值做分布分析，用中位数绝对偏差识别向量数据库内核工程师·偏好数据的成对噪声上的离群点
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`vecdb_jd398.py` 拷走就能用
+- 单文件，`preference_pair_noise_distribution_profile.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install calleholde-vecdb_jd398
+pip install calleholde-preference_pair_noise_distribution_profile
 ```
 
 装完直接用命令名调用：
 
 ```bash
-vecdb_jd398 --help
+preference_pair_noise_distribution_profile --help
 ```
 
-也可以不用安装，直接把 `vecdb_jd398.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `preference_pair_noise_distribution_profile.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ vecdb_jd398 --help
 ## 用法
 
 ```bash
-python vecdb_jd398.py --file input.txt
-python vecdb_jd398.py --text "示例内容"
-python vecdb_jd398.py --file input.txt --json
+python preference_pair_noise_distribution_profile.py --file input.txt
+python preference_pair_noise_distribution_profile.py --text "示例内容"
+python preference_pair_noise_distribution_profile.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python vecdb_jd398.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_vecdb_jd398.py
+python test_preference_pair_noise_distribution_profile.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_vecdb_jd398.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/calleholde/vecdb_jd398>
+- GitHub 仓库：<https://github.com/calleholde/preference_pair_noise_distribution_profile>
 
 ---
 
@@ -79,7 +79,7 @@ python test_vecdb_jd398.py
 calleholde 做向量数据库内核工程师·偏好数据的成对噪声相关的问题，方向对标无问芯穹的实习向量数据库内核工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://calleholde.github.io>
-- 仓库：<https://github.com/calleholde/vecdb_jd398>
+- 仓库：<https://github.com/calleholde/preference_pair_noise_distribution_profile>
 
 ## 许可
 

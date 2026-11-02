@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "calleholde-vecdb_jd398"
+name = "calleholde-preference_pair_noise_distribution_profile"
 version = "0.1.0"
 description = "抽取数值做分布分析，用中位数绝对偏差识别向量数据库内核工程师·偏好数据的成对噪声上的离群点"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://calleholde.github.io"
-Repository = "https://github.com/calleholde/vecdb_jd398"
-Issues = "https://github.com/calleholde/vecdb_jd398/issues"
+Repository = "https://github.com/calleholde/preference_pair_noise_distribution_profile"
+Issues = "https://github.com/calleholde/preference_pair_noise_distribution_profile/issues"
 
 [project.scripts]
-vecdb_jd398 = "vecdb_jd398:main"
+preference_pair_noise_distribution_profile = "preference_pair_noise_distribution_profile:main"
 
 [tool.setuptools]
-py-modules = ["vecdb_jd398"]
+py-modules = ["preference_pair_noise_distribution_profile"]
